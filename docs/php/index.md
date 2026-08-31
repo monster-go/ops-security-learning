@@ -16,9 +16,9 @@
 ┌─────────────────────────────────────────────────────────────┐
 │                    PHP 工程化学习路径                        │
 ├─────────────────────────────────────────────────────────────┤
-│  PSR-4 自动加载 ──→ Composer 依赖管理 ──→ 项目结构实践    │
-│        │                                                     │
-│        └──── 命名空间与目录映射 ──→ 排障与最佳实践           │
+│  PSR-4 自动加载 ──→ Trait 代码复用 ──→ 项目结构实践        │
+│        │                    │                                │
+│        └──── 命名空间映射 ──┴── 继承 / 接口 / Trait 组合    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -41,12 +41,30 @@ PSR-4 是 PHP 社区最广泛采用的类自动加载标准。它定义了**命�
 
 ---
 
+### 2️⃣ [Trait](/php/02-trait)
+
+Trait 是 PHP 在单继承模型下的**水平代码复用**机制。通过 `use` 将一组方法「混入」类中，解决多类共享逻辑又无法共用父类的问题；Laravel 的 `SoftDeletes`、`HasFactory` 等均为典型应用。
+
+**核心概念速记：**
+```php
+trait Loggable { public function log($msg) { /* ... */ } }
+
+class UserService {
+    use Loggable;  // 混入 log() 方法
+}
+```
+
+**更多内容 →** [`php/02-trait.md`](/php/02-trait)
+
+---
+
 ## 参考资源
 
 | 资源 | 说明 |
 |------|------|
 | [PSR-4 官方规范](https://www.php-fig.org/psr/psr-4/) | PHP-FIG 标准原文 |
 | [Composer 文档](https://getcomposer.org/doc/) | 依赖管理与 autoload 配置 |
+| [PHP 官方手册 — Trait](https://www.php.net/manual/zh/language.oop5.traits.php) | Trait 语言参考 |
 | [PHP 官方手册](https://www.php.net/manual/zh/) | 语言参考 |
 
 ---

@@ -34,7 +34,7 @@ features:
     link: /mysql/
   - icon: 🐘
     title: PHP 语言
-    details: PSR-4 自动加载、Composer 与 PHP 工程化实践
+    details: PSR-4 自动加载、Trait 代码复用与 PHP 工程化实践
     link: /php/
   - icon: 📦
     title: 容器与 DevOps

@@ -51,7 +51,7 @@ ops-security-learning/
 | 自动化 | [Bash 脚本与巡检](docs/guide/automation/bash-scripts.md) · [Supervisor](docs/guide/automation/supervisor.md) |
 | DevOps | [Docker](docs/guide/devops/docker.md) · [Git](docs/guide/devops/git.md) |
 | MySQL | [概览](docs/mysql/index.md) |
-| PHP | [概览](docs/php/index.md) · [PSR-4](docs/php/01-psr-4.md) |
+| PHP | [概览](docs/php/index.md) · [PSR-4](docs/php/01-psr-4.md) · [Trait](docs/php/02-trait.md) |
 | 安全 | [合法边界与实验规范](docs/guide/security/legal-boundaries.md) |
 
 ## 合法边界

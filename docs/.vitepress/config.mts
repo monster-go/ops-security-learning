@@ -95,6 +95,7 @@ const sidebar = [
         items: [
           { text: '概览', link: '/php/' },
           { text: '01 PSR-4 自动加载', link: '/php/01-psr-4' },
+          { text: '02 Trait', link: '/php/02-trait' },
         ],
       },
     ],
