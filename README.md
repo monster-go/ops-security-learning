@@ -35,7 +35,8 @@ ops-security-learning/
 ├── docs/                    # VitePress 内容根目录
 │   ├── index.md             # 知识库首页
 │   ├── guide/               # 按主题组织的文档（Linux / 网络 / 自动化 / DevOps / 安全）
-│   └── mysql/               # MySQL 分章教程与实验
+│   ├── mysql/               # MySQL 分章教程与实验
+│   └── php/                 # PHP 语言与工程化
 ├── docs/.vitepress/         # VitePress 配置
 ├── package.json
 └── .github/workflows/       # GitHub Pages 自动部署
@@ -50,6 +51,7 @@ ops-security-learning/
 | 自动化 | [Bash 脚本与巡检](docs/guide/automation/bash-scripts.md) · [Supervisor](docs/guide/automation/supervisor.md) |
 | DevOps | [Docker](docs/guide/devops/docker.md) · [Git](docs/guide/devops/git.md) |
 | MySQL | [概览](docs/mysql/index.md) |
+| PHP | [概览](docs/php/index.md) · [PSR-4](docs/php/01-psr-4.md) |
 | 安全 | [合法边界与实验规范](docs/guide/security/legal-boundaries.md) |
 
 ## 合法边界
@@ -65,7 +67,7 @@ ops-security-learning/
 ## 贡献
 
 - 发现错误或过时内容 → 提 Issue 或 PR
-- 欢迎往 `docs/guide/` 或 `docs/mysql/` 补充文档
+- 欢迎往 `docs/guide/`、`docs/mysql/` 或 `docs/php/` 补充文档
 
 ---
 

@@ -13,6 +13,9 @@ hero:
       text: MySQL
       link: /mysql/
     - theme: alt
+      text: PHP
+      link: /php/
+    - theme: alt
       text: SSH
       link: /guide/linux/ssh
 
@@ -29,6 +32,10 @@ features:
     title: MySQL 运维
     details: 部署加固、备份恢复、性能调优、主从高可用与常见故障
     link: /mysql/
+  - icon: 🐘
+    title: PHP 语言
+    details: PSR-4 自动加载、Composer 与 PHP 工程化实践
+    link: /php/
   - icon: 📦
     title: 容器与 DevOps
     details: Docker、Compose、Git、磁盘清理与 CI/CD 概念

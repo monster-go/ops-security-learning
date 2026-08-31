@@ -86,6 +86,20 @@ const sidebar = [
     ],
   },
   {
+    text: '编程语言',
+    collapsed: false,
+    items: [
+      {
+        text: 'PHP',
+        collapsed: false,
+        items: [
+          { text: '概览', link: '/php/' },
+          { text: '01 PSR-4 自动加载', link: '/php/01-psr-4' },
+        ],
+      },
+    ],
+  },
+  {
     text: '安全运维',
     collapsed: false,
     items: [
@@ -121,6 +135,7 @@ export default defineConfig({
       { text: '入门', link: '/guide/environment' },
       { text: 'Linux', link: '/guide/linux/filesystem-permissions' },
       { text: 'MySQL', link: '/mysql/' },
+      { text: 'PHP', link: '/php/' },
       { text: '安全', link: '/guide/security/legal-boundaries' },
       { text: '参考资源', link: '/guide/resources' },
     ],
