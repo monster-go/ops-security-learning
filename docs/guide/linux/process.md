@@ -36,5 +36,6 @@ top
 ## 延伸阅读
 
 - [软件包与服务管理](/guide/linux/package-services) — systemd 与服务启停
+- [Linux 系统端口使用情况](/guide/network/port-usage) — 由端口反查占用进程
 - [Supervisor](/guide/automation/supervisor) — 进程守护与崩溃重启
 - [Bash 脚本与巡检](/guide/automation/bash-scripts) — 巡检脚本里采集进程与负载

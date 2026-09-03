@@ -26,7 +26,7 @@ features:
     link: /guide/linux/filesystem-permissions
   - icon: 🌐
     title: 网络与服务
-    details: TCP/IP 排障、Nginx 部署、日志分析与故障排查流程
+    details: TCP/IP 排障、端口占用排查、Nginx 部署与日志分析
     link: /guide/network/network-basics
   - icon: 🐬
     title: MySQL 运维

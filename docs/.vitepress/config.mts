@@ -31,6 +31,7 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '网络基础与排障', link: '/guide/network/network-basics' },
+      { text: '端口使用情况', link: '/guide/network/port-usage' },
       { text: 'Web 服务部署', link: '/guide/network/web-deployment' },
       { text: '日志与故障排查', link: '/guide/network/logging-troubleshooting' },
     ],

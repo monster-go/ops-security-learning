@@ -32,4 +32,5 @@ curl -v https://www.example.com
 
 ## 延伸阅读
 
+- [Linux 系统端口使用情况](/guide/network/port-usage) — `ss` / `lsof` 查监听与占用排查
 - [SSH 完全指南](/guide/linux/ssh) — 隧道与端口转发
