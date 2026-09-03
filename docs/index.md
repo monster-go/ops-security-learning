@@ -22,7 +22,7 @@ hero:
 features:
   - icon: 🐧
     title: Linux 系统
-    details: 文件权限、软件包与服务、磁盘进程、SSH、crontab
+    details: 文件权限、管道过滤、软件包与服务、磁盘进程、SSH、crontab
     link: /guide/linux/filesystem-permissions
   - icon: 🌐
     title: 网络与服务

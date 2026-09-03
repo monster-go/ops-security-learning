@@ -12,6 +12,7 @@ const sidebar = [
     collapsed: false,
     items: [
       { text: '文件系统与用户权限', link: '/guide/linux/filesystem-permissions' },
+      { text: '管道与文本过滤', link: '/guide/linux/pipe-and-filter' },
       { text: '软件包与服务管理', link: '/guide/linux/package-services' },
       { text: '磁盘与存储', link: '/guide/linux/disk' },
       { text: '进程管理', link: '/guide/linux/process' },

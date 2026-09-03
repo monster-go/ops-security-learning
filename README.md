@@ -47,7 +47,7 @@ ops-security-learning/
 | 分类 | 入口 |
 |------|------|
 | 入门 | [实验环境准备](docs/guide/environment.md) |
-| Linux | [文件系统与用户权限](docs/guide/linux/filesystem-permissions.md) · [SSH](docs/guide/linux/ssh.md) |
+| Linux | [文件系统与用户权限](docs/guide/linux/filesystem-permissions.md) · [管道与过滤](docs/guide/linux/pipe-and-filter.md) · [SSH](docs/guide/linux/ssh.md) |
 | 网络 | [网络基础](docs/guide/network/network-basics.md) · [端口使用情况](docs/guide/network/port-usage.md) |
 | 自动化 | [Bash 脚本与巡检](docs/guide/automation/bash-scripts.md) · [Supervisor](docs/guide/automation/supervisor.md) |
 | DevOps | [Docker](docs/guide/devops/docker.md) · [Git](docs/guide/devops/git.md) |

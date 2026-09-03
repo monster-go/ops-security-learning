@@ -65,5 +65,6 @@ curl -s http://127.0.0.1:8000/
 
 ## 深度文档
 
+- [管道与文本过滤](/guide/linux/pipe-and-filter) — `|` 与 grep 等过滤器基础
 - [crontab 完全指南](/guide/linux/crontab) — 定时任务
 - [Supervisor 完全指南](/guide/automation/supervisor) — 进程守护

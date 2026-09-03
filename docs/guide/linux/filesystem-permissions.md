@@ -36,4 +36,5 @@ grep "Failed password" /var/log/auth.log
 
 ## 延伸阅读
 
+- [管道与文本过滤](/guide/linux/pipe-and-filter) — `cat`/`命令` + `|` + `grep` 筛信息
 - [SSH 完全指南](/guide/linux/ssh) — 远程登录与用户认证
