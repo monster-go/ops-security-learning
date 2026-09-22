@@ -336,4 +336,4 @@ echo $w->run(); // trait — Trait 方法覆盖父类同名方法
 
 ---
 
-[← 上一篇：PSR-4 自动加载](/php/01-psr-4) · [返回 PHP 概览](/php/)
+[← 上一篇：PSR-4 自动加载](/php/01-psr-4) · [返回 PHP 概览](/php/) · [下一篇：Laravel Facade →](/php/03-facade)

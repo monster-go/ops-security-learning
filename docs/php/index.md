@@ -16,9 +16,9 @@
 ┌─────────────────────────────────────────────────────────────┐
 │                    PHP 工程化学习路径                        │
 ├─────────────────────────────────────────────────────────────┤
-│  PSR-4 自动加载 ──→ Trait 代码复用 ──→ 项目结构实践        │
-│        │                    │                                │
-│        └──── 命名空间映射 ──┴── 继承 / 接口 / Trait 组合    │
+│  PSR-4 自动加载 ──→ Trait 代码复用 ──→ Laravel Facade     │
+│        │                    │                  │              │
+│        └── 命名空间映射 ────┴── 类组合 ──→ 服务容器与代理   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -58,6 +58,24 @@ class UserService {
 
 ---
 
+### 3️⃣ [Laravel Facade](/php/03-facade)
+
+Laravel Facade 为服务容器中的对象提供简洁的“静态”调用入口。教程沿着**服务注册 → 容器解析 → 静态代理**的主线，讲清 Facade 与匿名函数、闭包、Service Provider 和 `__callStatic()` 的关系。
+
+**核心调用链：**
+
+```text
+Payment::charge()
+  → Facade::__callStatic()
+  → getFacadeAccessor()
+  → 服务容器解析对象
+  → PaymentService->charge()
+```
+
+**更多内容 →** [`php/03-facade.md`](/php/03-facade)
+
+---
+
 ## 参考资源
 
 | 资源 | 说明 |
@@ -65,6 +83,8 @@ class UserService {
 | [PSR-4 官方规范](https://www.php-fig.org/psr/psr-4/) | PHP-FIG 标准原文 |
 | [Composer 文档](https://getcomposer.org/doc/) | 依赖管理与 autoload 配置 |
 | [PHP 官方手册 — Trait](https://www.php.net/manual/zh/language.oop5.traits.php) | Trait 语言参考 |
+| [Laravel 12.x — Facades](https://laravel.com/docs/12.x/facades) | Facade 原理、使用与测试 |
+| [Laravel 12.x — Service Container](https://laravel.com/docs/12.x/container) | 服务注册、解析与生命周期 |
 | [PHP 官方手册](https://www.php.net/manual/zh/) | 语言参考 |
 
 ---
